@@ -1,0 +1,19 @@
+@PrimeWeb01_HostAddress = http://localhost:5028
+
+GET {{PrimeWeb01_HostAddress}}/
+Accept: text/plain
+
+###
+
+GET {{PrimeWeb01_HostAddress}}/checkprime?5
+Accept: text/plain
+
+###
+
+GET {{PrimeWeb01_HostAddress}}/checkprime?6
+Accept: text/plain
+
+###
+
+GET {{PrimeWeb01_HostAddress}}/checkprime
+Accept: text/plain
